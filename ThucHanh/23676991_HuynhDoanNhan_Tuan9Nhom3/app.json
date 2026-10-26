@@ -1,0 +1,20 @@
+{
+  "expo": {
+    "name": "Tuần 9.2 - BookStore",
+    "slug": "tuan9-2",
+    "scheme": "tuan9-2",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "edgeToEdgeEnabled": true
+    },
+    "plugins": [
+      "expo-router"
+    ]
+  }
+}

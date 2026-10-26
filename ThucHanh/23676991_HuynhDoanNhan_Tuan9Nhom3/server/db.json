@@ -1,0 +1,559 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Trần Minh Anh",
+      "email": "minhanh@gmail.com",
+      "password": "$2a$10$/9ch02a2Q62gyFy6lMBz6eeE366Wx0G/ELiTAnEHpLQNaVDiqJ1fq"
+    },
+    {
+      "id": 2,
+      "name": "Nguyễn Hoàng Nam",
+      "email": "hoangnam@gmail.com",
+      "password": "$2a$10$/9ch02a2Q62gyFy6lMBz6eeE366Wx0G/ELiTAnEHpLQNaVDiqJ1fq"
+    },
+    {
+      "id": 3,
+      "name": "Lê Thu Hà",
+      "email": "thuha@gmail.com",
+      "password": "$2a$10$/9ch02a2Q62gyFy6lMBz6eeE366Wx0G/ELiTAnEHpLQNaVDiqJ1fq"
+    },
+    {
+      "id": 4,
+      "name": "Tài khoản Test",
+      "email": "test@gmail.com",
+      "password": "$2a$10$/9ch02a2Q62gyFy6lMBz6eeE366Wx0G/ELiTAnEHpLQNaVDiqJ1fq"
+    },
+    {
+      "email": "nhan@gmail.com",
+      "password": "$2a$10$fdE4xnsT6y204EwbAPyMeuo4mFqapCtuLxfpD7otBldDApBcLdwSO",
+      "id": 5
+    }
+  ],
+  "books": [
+    {
+      "id": 1,
+      "title": "Cho Tôi Xin Một Vé Đi Tuổi Thơ",
+      "author": "Nguyễn Nhật Ánh",
+      "category": "Văn học",
+      "price": 50000,
+      "image": "https://picsum.photos/seed/mocsach-1/300/450",
+      "description": "Khám phá Cho Tôi Xin Một Vé Đi Tuổi Thơ cùng Mộc Sách. Tác phẩm của Nguyễn Nhật Ánh, thuộc kệ văn học, phù hợp để đọc chậm và lưu lại những điều đáng nhớ."
+    },
+    {
+      "id": 2,
+      "title": "Chiếc Thuyền Ngoài Xa",
+      "author": "Nguyễn Minh Châu",
+      "category": "Văn học",
+      "price": 48000,
+      "image": "https://picsum.photos/seed/mocsach-2/300/450",
+      "description": "Khám phá Chiếc Thuyền Ngoài Xa cùng Mộc Sách. Tác phẩm của Nguyễn Minh Châu, thuộc kệ văn học, phù hợp để đọc chậm và lưu lại những điều đáng nhớ."
+    },
+    {
+      "id": 3,
+      "title": "Những Ngày Thơ Ấu",
+      "author": "Nguyên Hồng",
+      "category": "Văn học",
+      "price": 57000,
+      "image": "https://picsum.photos/seed/mocsach-3/300/450",
+      "description": "Khám phá Những Ngày Thơ Ấu cùng Mộc Sách. Tác phẩm của Nguyên Hồng, thuộc kệ văn học, phù hợp để đọc chậm và lưu lại những điều đáng nhớ."
+    },
+    {
+      "id": 4,
+      "title": "Gió Lạnh Đầu Mùa",
+      "author": "Thạch Lam",
+      "category": "Văn học",
+      "price": 75000,
+      "image": "https://picsum.photos/seed/mocsach-4/300/450",
+      "description": "Khám phá Gió Lạnh Đầu Mùa cùng Mộc Sách. Tác phẩm của Thạch Lam, thuộc kệ văn học, phù hợp để đọc chậm và lưu lại những điều đáng nhớ."
+    },
+    {
+      "id": 5,
+      "title": "Hà Nội Băm Sáu Phố Phường",
+      "author": "Thạch Lam",
+      "category": "Văn học",
+      "price": 80000,
+      "image": "https://picsum.photos/seed/mocsach-5/300/450",
+      "description": "Khám phá Hà Nội Băm Sáu Phố Phường cùng Mộc Sách. Tác phẩm của Thạch Lam, thuộc kệ văn học, phù hợp để đọc chậm và lưu lại những điều đáng nhớ."
+    },
+    {
+      "id": 6,
+      "title": "Đắc Nhân Tâm",
+      "author": "Dale Carnegie",
+      "category": "Kỹ năng",
+      "price": 96000,
+      "image": "https://picsum.photos/seed/mocsach-6/300/450",
+      "description": "Khám phá Đắc Nhân Tâm cùng Mộc Sách. Tác phẩm của Dale Carnegie, thuộc kệ kỹ năng, phù hợp để đọc chậm và lưu lại những điều đáng nhớ."
+    },
+    {
+      "id": 7,
+      "title": "7 Thói Quen Hiệu Quả",
+      "author": "Stephen R. Covey",
+      "category": "Kỹ năng",
+      "price": 140000,
+      "image": "https://picsum.photos/seed/mocsach-7/300/450",
+      "description": "Khám phá 7 Thói Quen Hiệu Quả cùng Mộc Sách. Tác phẩm của Stephen R. Covey, thuộc kệ kỹ năng, phù hợp để đọc chậm và lưu lại những điều đáng nhớ."
+    },
+    {
+      "id": 8,
+      "title": "Tư Duy Nhanh Và Chậm",
+      "author": "Daniel Kahneman",
+      "category": "Kỹ năng",
+      "price": 190000,
+      "image": "https://picsum.photos/seed/mocsach-8/300/450",
+      "description": "Khám phá Tư Duy Nhanh Và Chậm cùng Mộc Sách. Tác phẩm của Daniel Kahneman, thuộc kệ kỹ năng, phù hợp để đọc chậm và lưu lại những điều đáng nhớ."
+    },
+    {
+      "id": 9,
+      "title": "Sức Mạnh Của Thói Quen",
+      "author": "Charles Duhigg",
+      "category": "Kỹ năng",
+      "price": 130000,
+      "image": "https://picsum.photos/seed/mocsach-9/300/450",
+      "description": "Khám phá Sức Mạnh Của Thói Quen cùng Mộc Sách. Tác phẩm của Charles Duhigg, thuộc kệ kỹ năng, phù hợp để đọc chậm và lưu lại những điều đáng nhớ."
+    },
+    {
+      "id": 10,
+      "title": "Quẳng Gánh Lo Đi Và Vui Sống",
+      "author": "Dale Carnegie",
+      "category": "Kỹ năng",
+      "price": 105000,
+      "image": "https://picsum.photos/seed/mocsach-10/300/450",
+      "description": "Khám phá Quẳng Gánh Lo Đi Và Vui Sống cùng Mộc Sách. Tác phẩm của Dale Carnegie, thuộc kệ kỹ năng, phù hợp để đọc chậm và lưu lại những điều đáng nhớ."
+    },
+    {
+      "id": 11,
+      "title": "React Native Qua Ví Dụ",
+      "author": "Nhóm Mộc Sách",
+      "category": "Công nghệ",
+      "price": 155000,
+      "image": "https://picsum.photos/seed/mocsach-11/300/450",
+      "description": "Khám phá React Native Qua Ví Dụ cùng Mộc Sách. Tác phẩm của Nhóm Mộc Sách, thuộc kệ công nghệ, phù hợp để đọc chậm và lưu lại những điều đáng nhớ."
+    },
+    {
+      "id": 12,
+      "title": "JavaScript Từ Những Điều Cơ Bản",
+      "author": "Nhóm Mộc Sách",
+      "category": "Công nghệ",
+      "price": 120000,
+      "image": "https://picsum.photos/seed/mocsach-12/300/450",
+      "description": "Khám phá JavaScript Từ Những Điều Cơ Bản cùng Mộc Sách. Tác phẩm của Nhóm Mộc Sách, thuộc kệ công nghệ, phù hợp để đọc chậm và lưu lại những điều đáng nhớ."
+    },
+    {
+      "id": 13,
+      "title": "Thực Hành TypeScript",
+      "author": "Nhóm Mộc Sách",
+      "category": "Công nghệ",
+      "price": 150000,
+      "image": "https://picsum.photos/seed/mocsach-13/300/450",
+      "description": "Khám phá Thực Hành TypeScript cùng Mộc Sách. Tác phẩm của Nhóm Mộc Sách, thuộc kệ công nghệ, phù hợp để đọc chậm và lưu lại những điều đáng nhớ."
+    },
+    {
+      "id": 14,
+      "title": "Cấu Trúc Dữ Liệu Và Giải Thuật",
+      "author": "Nhóm tác giả",
+      "category": "Công nghệ",
+      "price": 170000,
+      "image": "https://picsum.photos/seed/mocsach-14/300/450",
+      "description": "Khám phá Cấu Trúc Dữ Liệu Và Giải Thuật cùng Mộc Sách. Tác phẩm của Nhóm tác giả, thuộc kệ công nghệ, phù hợp để đọc chậm và lưu lại những điều đáng nhớ."
+    },
+    {
+      "id": 15,
+      "title": "Nhập Môn Trí Tuệ Nhân Tạo",
+      "author": "Nhóm tác giả",
+      "category": "Công nghệ",
+      "price": 180000,
+      "image": "https://picsum.photos/seed/mocsach-15/300/450",
+      "description": "Khám phá Nhập Môn Trí Tuệ Nhân Tạo cùng Mộc Sách. Tác phẩm của Nhóm tác giả, thuộc kệ công nghệ, phù hợp để đọc chậm và lưu lại những điều đáng nhớ."
+    },
+    {
+      "id": 16,
+      "title": "Doraemon - Tập 1",
+      "author": "Fujiko F. Fujio",
+      "category": "Thiếu nhi",
+      "price": 35000,
+      "image": "https://picsum.photos/seed/mocsach-16/300/450",
+      "description": "Khám phá Doraemon - Tập 1 cùng Mộc Sách. Tác phẩm của Fujiko F. Fujio, thuộc kệ thiếu nhi, phù hợp để đọc chậm và lưu lại những điều đáng nhớ."
+    },
+    {
+      "id": 17,
+      "title": "Hoàng Tử Bé",
+      "author": "Antoine de Saint-Exupéry",
+      "category": "Thiếu nhi",
+      "price": 70000,
+      "image": "https://picsum.photos/seed/mocsach-17/300/450",
+      "description": "Khám phá Hoàng Tử Bé cùng Mộc Sách. Tác phẩm của Antoine de Saint-Exupéry, thuộc kệ thiếu nhi, phù hợp để đọc chậm và lưu lại những điều đáng nhớ."
+    },
+    {
+      "id": 18,
+      "title": "Đất Rừng Phương Nam",
+      "author": "Đoàn Giỏi",
+      "category": "Thiếu nhi",
+      "price": 90000,
+      "image": "https://picsum.photos/seed/mocsach-18/300/450",
+      "description": "Khám phá Đất Rừng Phương Nam cùng Mộc Sách. Tác phẩm của Đoàn Giỏi, thuộc kệ thiếu nhi, phù hợp để đọc chậm và lưu lại những điều đáng nhớ."
+    },
+    {
+      "id": 19,
+      "title": "Góc Sân Và Khoảng Trời",
+      "author": "Trần Đăng Khoa",
+      "category": "Thiếu nhi",
+      "price": 50000,
+      "image": "https://picsum.photos/seed/mocsach-19/300/450",
+      "description": "Khám phá Góc Sân Và Khoảng Trời cùng Mộc Sách. Tác phẩm của Trần Đăng Khoa, thuộc kệ thiếu nhi, phù hợp để đọc chậm và lưu lại những điều đáng nhớ."
+    },
+    {
+      "id": 20,
+      "title": "Những Tấm Lòng Cao Cả",
+      "author": "Edmondo De Amicis",
+      "category": "Thiếu nhi",
+      "price": 88000,
+      "image": "https://picsum.photos/seed/mocsach-20/300/450",
+      "description": "Khám phá Những Tấm Lòng Cao Cả cùng Mộc Sách. Tác phẩm của Edmondo De Amicis, thuộc kệ thiếu nhi, phù hợp để đọc chậm và lưu lại những điều đáng nhớ."
+    }
+  ],
+  "reviews": [
+    {
+      "id": 1,
+      "bookId": 1,
+      "userId": 1,
+      "userName": "Trần Minh Anh",
+      "rating": 5,
+      "comment": "Mình thích cách trình bày, đọc vào buổi tối rất thư giãn.",
+      "createdAt": "2026-09-01T08:30:00.000Z"
+    },
+    {
+      "id": 2,
+      "bookId": 2,
+      "userId": 2,
+      "userName": "Nguyễn Hoàng Nam",
+      "rating": 4,
+      "comment": "Nội dung có nhiều góc nhìn thú vị để suy ngẫm.",
+      "createdAt": "2026-09-02T08:30:00.000Z"
+    },
+    {
+      "id": 3,
+      "bookId": 3,
+      "userId": 3,
+      "userName": "Lê Thu Hà",
+      "rating": 4,
+      "comment": "Cuốn sách phù hợp để đọc lại và ghi chú từng phần.",
+      "createdAt": "2026-09-03T08:30:00.000Z"
+    },
+    {
+      "id": 4,
+      "bookId": 4,
+      "userId": 4,
+      "userName": "Tài khoản Test",
+      "rating": 5,
+      "comment": "Một lựa chọn đáng cân nhắc cho tủ sách cá nhân.",
+      "createdAt": "2026-09-04T08:30:00.000Z"
+    },
+    {
+      "id": 5,
+      "bookId": 5,
+      "userId": 1,
+      "userName": "Trần Minh Anh",
+      "rating": 3,
+      "comment": "Mạch viết rõ ràng, có nhiều đoạn mình muốn chia sẻ.",
+      "createdAt": "2026-09-05T08:30:00.000Z"
+    },
+    {
+      "id": 6,
+      "bookId": 6,
+      "userId": 2,
+      "userName": "Nguyễn Hoàng Nam",
+      "rating": 5,
+      "comment": "Mình thích cách trình bày, đọc vào buổi tối rất thư giãn.",
+      "createdAt": "2026-09-06T08:30:00.000Z"
+    },
+    {
+      "id": 7,
+      "bookId": 7,
+      "userId": 3,
+      "userName": "Lê Thu Hà",
+      "rating": 4,
+      "comment": "Nội dung có nhiều góc nhìn thú vị để suy ngẫm.",
+      "createdAt": "2026-09-07T08:30:00.000Z"
+    },
+    {
+      "id": 8,
+      "bookId": 8,
+      "userId": 4,
+      "userName": "Tài khoản Test",
+      "rating": 4,
+      "comment": "Cuốn sách phù hợp để đọc lại và ghi chú từng phần.",
+      "createdAt": "2026-09-08T08:30:00.000Z"
+    },
+    {
+      "id": 9,
+      "bookId": 9,
+      "userId": 1,
+      "userName": "Trần Minh Anh",
+      "rating": 5,
+      "comment": "Một lựa chọn đáng cân nhắc cho tủ sách cá nhân.",
+      "createdAt": "2026-09-09T08:30:00.000Z"
+    },
+    {
+      "id": 10,
+      "bookId": 10,
+      "userId": 2,
+      "userName": "Nguyễn Hoàng Nam",
+      "rating": 3,
+      "comment": "Mạch viết rõ ràng, có nhiều đoạn mình muốn chia sẻ.",
+      "createdAt": "2026-09-10T08:30:00.000Z"
+    },
+    {
+      "id": 11,
+      "bookId": 11,
+      "userId": 3,
+      "userName": "Lê Thu Hà",
+      "rating": 5,
+      "comment": "Mình thích cách trình bày, đọc vào buổi tối rất thư giãn.",
+      "createdAt": "2026-09-11T08:30:00.000Z"
+    },
+    {
+      "id": 12,
+      "bookId": 12,
+      "userId": 4,
+      "userName": "Tài khoản Test",
+      "rating": 4,
+      "comment": "Nội dung có nhiều góc nhìn thú vị để suy ngẫm.",
+      "createdAt": "2026-09-12T08:30:00.000Z"
+    },
+    {
+      "id": 13,
+      "bookId": 13,
+      "userId": 1,
+      "userName": "Trần Minh Anh",
+      "rating": 4,
+      "comment": "Cuốn sách phù hợp để đọc lại và ghi chú từng phần.",
+      "createdAt": "2026-09-13T08:30:00.000Z"
+    },
+    {
+      "id": 14,
+      "bookId": 14,
+      "userId": 2,
+      "userName": "Nguyễn Hoàng Nam",
+      "rating": 5,
+      "comment": "Một lựa chọn đáng cân nhắc cho tủ sách cá nhân.",
+      "createdAt": "2026-09-14T08:30:00.000Z"
+    },
+    {
+      "id": 15,
+      "bookId": 15,
+      "userId": 3,
+      "userName": "Lê Thu Hà",
+      "rating": 3,
+      "comment": "Mạch viết rõ ràng, có nhiều đoạn mình muốn chia sẻ.",
+      "createdAt": "2026-09-15T08:30:00.000Z"
+    },
+    {
+      "id": 16,
+      "bookId": 16,
+      "userId": 4,
+      "userName": "Tài khoản Test",
+      "rating": 5,
+      "comment": "Mình thích cách trình bày, đọc vào buổi tối rất thư giãn.",
+      "createdAt": "2026-09-16T08:30:00.000Z"
+    },
+    {
+      "id": 17,
+      "bookId": 17,
+      "userId": 1,
+      "userName": "Trần Minh Anh",
+      "rating": 4,
+      "comment": "Nội dung có nhiều góc nhìn thú vị để suy ngẫm.",
+      "createdAt": "2026-09-17T08:30:00.000Z"
+    },
+    {
+      "id": 18,
+      "bookId": 18,
+      "userId": 2,
+      "userName": "Nguyễn Hoàng Nam",
+      "rating": 4,
+      "comment": "Cuốn sách phù hợp để đọc lại và ghi chú từng phần.",
+      "createdAt": "2026-09-18T08:30:00.000Z"
+    },
+    {
+      "id": 19,
+      "bookId": 19,
+      "userId": 3,
+      "userName": "Lê Thu Hà",
+      "rating": 5,
+      "comment": "Một lựa chọn đáng cân nhắc cho tủ sách cá nhân.",
+      "createdAt": "2026-09-19T08:30:00.000Z"
+    },
+    {
+      "id": 20,
+      "bookId": 20,
+      "userId": 4,
+      "userName": "Tài khoản Test",
+      "rating": 3,
+      "comment": "Mạch viết rõ ràng, có nhiều đoạn mình muốn chia sẻ.",
+      "createdAt": "2026-09-20T08:30:00.000Z"
+    },
+    {
+      "id": 21,
+      "bookId": 1,
+      "userId": 1,
+      "userName": "Trần Minh Anh",
+      "rating": 5,
+      "comment": "Mình thích cách trình bày, đọc vào buổi tối rất thư giãn.",
+      "createdAt": "2026-09-21T08:30:00.000Z"
+    },
+    {
+      "id": 22,
+      "bookId": 1,
+      "userId": 2,
+      "userName": "Nguyễn Hoàng Nam",
+      "rating": 4,
+      "comment": "Nội dung có nhiều góc nhìn thú vị để suy ngẫm.",
+      "createdAt": "2026-09-22T08:30:00.000Z"
+    },
+    {
+      "id": 23,
+      "bookId": 8,
+      "userId": 3,
+      "userName": "Lê Thu Hà",
+      "rating": 4,
+      "comment": "Cuốn sách phù hợp để đọc lại và ghi chú từng phần.",
+      "createdAt": "2026-09-23T08:30:00.000Z"
+    },
+    {
+      "id": 24,
+      "bookId": 8,
+      "userId": 4,
+      "userName": "Tài khoản Test",
+      "rating": 5,
+      "comment": "Một lựa chọn đáng cân nhắc cho tủ sách cá nhân.",
+      "createdAt": "2026-09-24T08:30:00.000Z"
+    },
+    {
+      "id": 25,
+      "bookId": 11,
+      "userId": 1,
+      "userName": "Trần Minh Anh",
+      "rating": 3,
+      "comment": "Mạch viết rõ ràng, có nhiều đoạn mình muốn chia sẻ.",
+      "createdAt": "2026-09-25T08:30:00.000Z"
+    },
+    {
+      "id": 26,
+      "bookId": 8,
+      "userId": 1,
+      "userName": "Trần Minh Anh",
+      "rating": 4,
+      "comment": "Đã đọc trong tháng này, mình sẽ giới thiệu cuốn này cho bạn bè.",
+      "createdAt": "2026-09-26T10:00:00.000Z"
+    },
+    {
+      "id": 27,
+      "bookId": 12,
+      "userId": 2,
+      "userName": "Nguyễn Hoàng Nam",
+      "rating": 4,
+      "comment": "Đã đọc trong tháng này, mình sẽ giới thiệu cuốn này cho bạn bè.",
+      "createdAt": "2026-09-27T10:00:00.000Z"
+    },
+    {
+      "id": 28,
+      "bookId": 17,
+      "userId": 3,
+      "userName": "Lê Thu Hà",
+      "rating": 4,
+      "comment": "Đã đọc trong tháng này, mình sẽ giới thiệu cuốn này cho bạn bè.",
+      "createdAt": "2026-09-28T10:00:00.000Z"
+    },
+    {
+      "bookId": 8,
+      "userId": 4,
+      "userName": "Tài khoản Test",
+      "rating": 5,
+      "comment": "Mộc Sách - Test gửi review cho Tư Duy Nhanh Và Chậm.",
+      "createdAt": "2026-10-26T10:13:00.437Z",
+      "id": 29
+    },
+    {
+      "bookId": 8,
+      "userId": 5,
+      "userName": "Tài khoản Test",
+      "rating": 10,
+      "comment": "Tuan 9",
+      "createdAt": "2026-10-26T10:13:00.437Z",
+      "id": 30
+    },
+    {
+      "bookId": 8,
+      "userId": 5,
+      "userName": "Tài khoản Test",
+      "rating": 10,
+      "comment": "Tuan 9",
+      "createdAt": "2026-10-26T10:13:00.437Z",
+      "id": 31
+    },
+    {
+      "bookId": 8,
+      "userId": 5,
+      "userName": "Tài khoản Test",
+      "rating": 10,
+      "comment": "Tuan 9",
+      "createdAt": "2026-10-26T10:13:00.437Z",
+      "id": 32
+    },
+    {
+      "bookId": 8,
+      "userId": 5,
+      "userName": "Tài khoản Test",
+      "rating": 10,
+      "comment": "Tuan 9",
+      "createdAt": "2026-10-26T10:13:00.437Z",
+      "id": 33
+    },
+    {
+      "bookId": 8,
+      "userId": 5,
+      "userName": "Tài khoản Test",
+      "rating": 10,
+      "comment": "Tuan 9",
+      "createdAt": "2026-10-26T10:13:00.437Z",
+      "id": 34
+    },
+    {
+      "bookId": 8,
+      "userId": 5,
+      "userName": "Tài khoản Test",
+      "rating": 10,
+      "comment": "Tuan 9",
+      "createdAt": "2026-10-26T10:13:00.437Z",
+      "id": 35
+    },
+    {
+      "bookId": 8,
+      "userId": 5,
+      "userName": "Tài khoản Test",
+      "rating": 10,
+      "comment": "Tuan 9",
+      "createdAt": "2026-10-26T10:13:00.437Z",
+      "id": 36
+    },
+    {
+      "bookId": 8,
+      "userId": 5,
+      "userName": "Tài khoản Test",
+      "rating": 10,
+      "comment": "Tuan 9",
+      "createdAt": "2026-10-26T10:13:00.437Z",
+      "id": 37
+    },
+    {
+      "bookId": 8,
+      "userId": 5,
+      "userName": "Tài khoản Test",
+      "rating": 10,
+      "comment": "Tuan 9",
+      "createdAt": "2026-10-26T10:13:00.437Z",
+      "id": 38
+    }
+  ]
+}
